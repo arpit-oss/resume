@@ -1,0 +1,274 @@
+.nav-item{
+  padding: 5px 10px;
+}
+.navbar-nav li a{
+   color: black; !important;
+   font-weight:bold ;
+   font-size: 20px !important;
+    
+}
+.navbar-nav li a:hover{
+  transform: scale(1.09);
+  color: red;
+
+}
+
+/*.navbar {
+  z-index: 1;
+
+}
+
+.navbar {
+  background: white;
+  height: 70px;
+  
+}
+.navbar-nav li a{
+   color: black; !important;
+   font-weight:600 ;
+   font-size: 20px !important;
+    
+}
+.navbar-nav li{
+   padding: 0 5px;
+}
+.navbar-brand img{
+  width: 40%;
+  height: 70%; 
+  border-style: none;
+
+  margin-left: 20px;
+}
+
+.navbar ul li a:hover{
+  color: #ec644b;
+}*/
+
+.slider-section{
+  display: flex;
+}
+
+ .heading h2{
+  font-size: 3.1rem; 
+  font-weight: bold;
+  text-align: center;
+}
+
+.why_section .container .heading-container h2{
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+ .why_section .box{
+  text-align: center;
+  margin-top: 45px;
+  background-color: #ff9470; 
+  padding: 45px 50px;
+  border-radius: 5px;
+  color: #fff; 
+}
+
+ 
+
+.why_section .box .img-box{
+  margin-bottom: 15px;
+
+}
+.slider_section .detail-box h1 span {
+  color: #f7444e;
+  }
+
+  .slider_section .detail-box{
+    margin-top: 30px;
+  }
+.slider_section .detail-box p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 1.5rem;
+}
+.slider_section .detail-box{
+  align-items: center;
+}
+.btn1{
+  color: white;
+  text-decoration: none;
+}
+.btn1:hover {
+
+background-color:red;
+}
+/* .product-section .container .heading-container{
+  margin-bottom: 30px;
+}
+
+.product-section .container .heading-container h2{
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0px;
+  position: relative;
+  
+} */
+
+ #hd1 {
+  font-size: 3.1rem;
+  font-weight: bold !important;
+  /* text-align: center; */
+  color: red;
+
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  margin-left:490px;
+  margin-right: 70px;
+  margin-top: 20px;
+
+}
+
+.img-box{
+  width: 50%;
+  height: 60%;
+}
+
+.About{
+  margin-top: 20px;
+}
+
+/* .product-section .product-image{
+  border-style: groove;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  
+}
+.product-section .btn:hover{
+ background-color: black;
+ justify-content: center; 
+
+}
+.product-section .btn{
+  margin-right: 30px;
+  margin-left: 30px;
+} */
+
+.card{
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  /* background-color: #bae4e5; */
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.card:hover {
+  
+  transform: scale(1.09);
+}
+.card:hover {
+  background-color: orange;
+  }
+
+.card:active {
+  transform: scale(0.95) rotateX(1.7deg);
+}
+.contact-section .contact h2{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #d0da8e;
+}
+.contact-section .contact h2:hover{
+  color: red;
+}
+ .contact-section .contact{
+  background-color: #fde3a7;
+} 
+.footer-section{
+  margin-top: 30px;
+  /* background-color: #fde3a7; */
+  /* padding: 20px; */
+  background-image:url('img/f2.png') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+ 
+}
+.footer-section ul li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+   padding: 10px; 
+   margin-right: 30px; 
+}
+.footer-section a{
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+
+}
+ .footer-section a:hover{
+  color:red;
+
+} 
+/* #social-icons a:hover{
+  color: red ;
+} */
+
+ .form_sub input[type="email"] + input[type="submit"] {
+    position: absolute;
+    right: 0;
+    background: #f7444e;
+    color: #fff;
+    border: none;
+    top: 0px;
+    font-size: 14px;
+    height: 48px;
+    font-weight: 600;
+    padding: 0 15px; 
+}
+.form input {
+    background: #fff;
+    border: solid #ccc 1px;
+    padding: 15px 15px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    line-height: normal;
+  } 
+  .about h1{
+    background-color: #d0da8e;
+  }
+  .footer-section .social-icons{
+    text-align: center;
+    margin: 2px 1px ;
+    font-size: 30px;
+    justify-content: space-between;
+    display: inline-flex; 
+
+  } 
+  .footer-section .social-icons{
+    font-size: 30px;
+    margin-right: 80px;
+    gap: 20px;
+
+
+
+  }
+  /* .footer-section .social-icons .fa fa-facebook{
+    color: black;
+    font-size: 80px;
+  } */
+/*
+@media (max-width:450px){
+  .navbar-collapse{
+    background-color: white !important;
+  }
+}*/
